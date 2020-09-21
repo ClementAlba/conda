@@ -40,6 +40,10 @@ Saisissez la commande suivante :
 set SSL_NO_VERIFY=1
 ```
 
+``` bash
+conda config --set ssl_verify no
+```
+
 #### Sous Fedora
 
 Ouvrez votre terminal et saisissez :
