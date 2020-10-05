@@ -47,6 +47,14 @@ Pour l'activer, il faut indiquer le préfix complet :
 conda activate /dossier/sousdossier/envs
 ```
 
+### Lister les environnements existants
+
+Cette commande indique tous les environnements existants :
+
+``` shell
+conda env list
+```
+
 ### Mettre à jour
 
 Vous pouvez mettre à jour un environnement
