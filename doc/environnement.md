@@ -47,6 +47,11 @@ Pour l'activer, il faut indiquer le préfix complet :
 conda activate /dossier/sousdossier/envs
 ```
 
+Vous pouvez également définir un emplacement par défaut pour l'intégralité des environnements :
+
+``` shell
+conda config --append envs_dirs /dossier/
+```
 ### Lister les environnements existants
 
 Cette commande indique tous les environnements existants :
