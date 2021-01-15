@@ -28,6 +28,33 @@ conda remove -n mon_env gdal
 
 ### Mise à jour
 
+Pour mettre à jour un paquet :
+
+``` shell
 conda update gdal
+```
+
+Pour mettre à jour tout un environnement :
+
+``` shell
+conda update --all
+```
 
 ## Les paquets pip
+
+## Les paquets nodejs
+
+Il faut installer la pile applicative complète pour disposer du gestionnaire de paquet **npm** :
+
+``` shell
+conda install -y -c conda-forge nodejs
+npm install -g json2csv
+```
+
+## Les utilitaires coreutils posix
+
+Le projet [MSYS2](https://www.msys2.org/) met à dispostion un grand d'utilaires courants sur les UNIX (curl, sed, gred, [etc.](https://repo.anaconda.com/pkgs/msys2/)) compilés pour Windows en 64bits. Ces paquets sont disponibles avec Conda :
+
+``` shell
+conda install -y -c msys m2-base
+```
