@@ -61,3 +61,8 @@ La commande suivante permet d'activer une [fonctionnalité expérimentale](https
 conda config --set pip_interop_enabled True
 ```
 
+Pour éviter les problèmes liés au proxy :
+
+``` bash
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org
+```
