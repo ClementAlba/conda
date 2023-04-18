@@ -66,3 +66,21 @@ Pour éviter les problèmes liés au proxy :
 ``` bash
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org
 ```
+
+## Alternatives à miniconda
+
+### miniforge
+
+miniforge est un installer Conda minifié spécifique à conda-forge. En utilisant conda-forge, tous les packages installés (y compris ceux de l'environnement de base) sont récupérés sur le channel conda-forge. C'est le channel par défaut (et aussi l'unique).
+
+Consultez la documentation à l'adresse suivante :
+
+> https://github.com/conda-forge/miniforge
+
+### mamba
+
+mamba est une réimplémentation de Conda en C++. Il utilise le multi-threading pour télécharger les packages, des bibliothèques pour traquer plus facilement les problèmes de dépendance entre les packages. Bien que ce soit une réécriture de Conda, mamba utilise les mêmes commandes et les mêmes codes pour l'installation et la désinstallation de packages afin de rester le plus compatible possible.
+
+Consultez la documentation à l'adresse suivante : 
+
+> https://github.com/mamba-org/mamba
